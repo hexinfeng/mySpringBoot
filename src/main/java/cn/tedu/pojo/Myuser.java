@@ -100,4 +100,11 @@ public class Myuser {
     public void setBrithday(Date brithday) {
         this.brithday = brithday;
     }
+
+	@Override
+	public String toString() {
+		return "Myuser [id=" + id + ", username=" + username + ", password=" + password + ", age=" + age + ", gander="
+				+ gander + ", brithday=" + brithday + "]";
+	}
+    
 }

@@ -16,4 +16,6 @@ public interface UserService {
 	
 	public List<Myuser> queryUserList();
 	
+	public void saveTransaction(Myuser user);
+	
 }
